@@ -1,0 +1,20 @@
+<html>
+<head>
+	<script>
+		//scope of variables
+		var x=5;//global variable
+		document.write(x);
+		function s()
+		{
+			var k=2;
+			document.write("<h1>"+k+"</h1>");
+			document.write("<h1>"+x+"</h1>")
+		}
+		s();
+		document.write(k);
+		//local variable has scope inside the function only
+		//global variables can be acessed inside function also
+
+	</script>
+</head>
+</html>
